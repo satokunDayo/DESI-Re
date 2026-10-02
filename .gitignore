@@ -1,0 +1,9 @@
+# Visual Studioのビルドファイル・中間ファイルを除外
+.vs/
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.user
