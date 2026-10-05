@@ -1,7 +1,7 @@
 ﻿#pragma once
 // SystemとSceneの2つのArenaを束ねる窓口。Engineが所有する普通のクラスで、シングルトンではない。
-#include "../Core/MemoryArena.h"
-#include "../Core/ObjectPool.h"
+#include "MemorySystem/Core/MemoryArena.h"
+#include "MemorySystem/Core/ObjectPool.h"
 
 // Systemはシーンをまたぐデータ、Sceneは切替時に返したいデータ、という寿命の区分。
 enum class ArenaType { System, Scene };

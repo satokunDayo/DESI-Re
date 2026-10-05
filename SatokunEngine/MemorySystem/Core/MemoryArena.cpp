@@ -1,5 +1,5 @@
 ﻿// 「閉じたい」と「もう閉じてよい」を分ける実装。参照が残るなら、その場で待たず次回へ回す。
-#include "MemoryArena.h"
+#include "MemorySystem/Core/MemoryArena.h"
 #include <atomic>
 #include <cassert>
 #include <utility>

@@ -1,6 +1,6 @@
 ﻿#pragma once
 // Scene用/System用の領域と、その寿命をつなぐ仕組み。借り物が残る間は店じまいを待つ。
-#include "BlockAllocator.h"
+#include "MemorySystem/Core/BlockAllocator.h"
 #include <cstdint>
 #include <memory>
 #include <mutex>

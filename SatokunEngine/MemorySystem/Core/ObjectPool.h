@@ -1,6 +1,6 @@
 ﻿#pragma once
 // 同じ型を何度も作るための席予約。テンプレートなので実装もこのヘッダに置く。
-#include "MemoryArena.h"
+#include "MemorySystem/Core/MemoryArena.h"
 #include <cassert>
 #include <limits>
 #include <stdexcept>

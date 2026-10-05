@@ -1,6 +1,6 @@
 ﻿// ここが起動の入口。エンジンを組み立て、シーンの名簿を渡して、あとはRunに任せる。
-#include "Engine.h"
-#include "StarterScenes.h"
+#include "EngineSelf/Engine.h"
+#include "Game/StarterScenes.h"
 #include <exception>
 
 // Windowsから最初に呼ばれる。instanceはこのアプリの識別用ハンドル。
@@ -11,7 +11,7 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE, PWSTR, int showCommand)
         // このスコープの住人。正常終了でも例外でも、最後はデストラクタが片付ける。
         Engine engine(instance);
         // 登録するのはシーンの「作り方」。この時点でステージやGPU画像はまだ作らない。
-        RegisterStarterScenes(engine.GetScenes());
+        RegisterStarterScenes(engine.GetScenes(), true);
 
         //ハジをかくなよ
         // 窓とDX12を準備する。初期化前にRunへ突撃すると何も描けない。順番大事。

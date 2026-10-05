@@ -1,5 +1,5 @@
 ﻿// シーン切替でCPU領域を交換する実装。借り物が残ったまま新しいSceneへ使い回さない。
-#include "MemoryManager.h"
+#include "MemorySystem/Manager/MemoryManager.h"
 #include <limits>
 #include <stdexcept>
 

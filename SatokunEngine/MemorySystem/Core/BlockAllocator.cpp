@@ -1,5 +1,5 @@
 ﻿// 4 KiBページの連続した空きを探す実装。移動中のデータを詰め直す機能はまだない。
-#include "BlockAllocator.h"
+#include "MemorySystem/Core/BlockAllocator.h"
 #include <algorithm>
 #include <bit>
 #include <cstdint>
