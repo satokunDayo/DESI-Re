@@ -1,9 +1,32 @@
-# Visual Studioのビルドファイル・中間ファイルを除外
+# このファイルは .sln と同じ階層（Gitリポジトリのルート）に置く。
+# Visual Studioの作業用データ・個人設定
 .vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# プラットフォーム別のビルド出力
 x64/
-Debug/
-Release/
+x86/
+# ソリューション直下の出力だけを除外する。
+# Debug/ と書くと MemorySystem/Debug/ のソースまで除外してしまう。
+/Debug/
+/Release/
+# コンパイル・リンクの生成物
 *.obj
 *.exe
 *.pdb
-*.user
+*.pch
+*.ipch
+*.idb
+*.ilk
+*.res
+*.tlog
+*.lastbuildstate
+# リソースエディターの作業用ファイル
+*.aps
+# IntelliSenseのキャッシュ
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
