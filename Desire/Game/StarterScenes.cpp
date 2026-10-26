@@ -28,7 +28,7 @@ void BootLogoScene::OnUpdate(SceneContext& context, const SceneInput& input, dou
     }
 
     elapsed_ += seconds;
-    if (input.confirm || elapsed_ >= 10)
+    if (input.confirm || elapsed_ >= 3)
     {
         // 本編がまだなければ終了。指定済みなら、登録されたSceneへ切替を予約する。
         if (nextScene_.empty()) context.scenes.RequestQuit();
