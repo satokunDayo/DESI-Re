@@ -13,6 +13,11 @@ DESIは **Designer / Engineer / Scripter / Integrator** に由来します。
 
 教材や公式ドキュメントを参照しながら開発を進めており、生成された提案は参考情報として扱い、実装・検証・最終的な判断は開発者が行っています。
 
+## ゲームプレイ映像
+
+DESI:Re Engine を使用して制作したゲームのプレイデモです。
+[DESI:Re Engine and Game Play Demo](https://youtu.be/KFjkeCrUwkg?si=3hV__ROYCroVBtAJ)
+
 ## 同梱ゲーム
 
 起動ロゴの後、迷路へ入ります。水色の床がゴールです。
