@@ -23,8 +23,10 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE, PWSTR, int showCommand)
 		// 表示してくれたらうれしい。ロゴね、こだわったんだ。 
         // けどもし表示したくなければ、falseにしてもいいんだよ。うん。
 		// いやほんと、ロゴの有無はゲームの内容に関係ないから、気にしないでいいんだよ。うん。
-		// 最大2.5秒の表示（Enterでスキップ可）だけどさ、迷惑だって思うなら別にいいんだよ。うん。
+		// 3秒の表示（Enterでスキップ可）だけどさ、迷惑だって思うなら別にいいんだよ。うん。
 		// いやほんっとに、気にしないでいいんだよ。うん。うん。
+        //    starterScene.cppの if (input.confirm || elapsed_ >= 3)の数値いじれば短くできるしうん
+
         // 
         // 下のshowBootLogoで切り替える。trueならロゴあり、falseなら本編へ直行。
         // firstSceneが空なら、ロゴありは表示後終了、ロゴなしはそのまま終了。
